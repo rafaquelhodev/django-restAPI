@@ -1,5 +1,5 @@
 from rest_framework import generics
-from myapp.serializers import MusicSerializer
+from myapp.serializers.music_serializer import MusicSerializer
 from myapp.models.music import Music
 
 
