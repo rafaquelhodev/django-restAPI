@@ -1,6 +1,6 @@
 from rest_framework import generics
-from .serializers import MusicSerializer
-from .models import Music
+from myapp.serializers import MusicSerializer
+from myapp.models.music import Music
 
 
 class MusicList(generics.ListCreateAPIView):

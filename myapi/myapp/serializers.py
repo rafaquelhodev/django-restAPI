@@ -1,7 +1,7 @@
 from django.db import models
 from django.db.models import fields
 from rest_framework import serializers
-from .models import Music
+from myapp.models.music import Music
 
 
 class MusicSerializer(serializers.ModelSerializer):
