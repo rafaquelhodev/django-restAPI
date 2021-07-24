@@ -1,0 +1,4 @@
+from myapp.serializers.album_serializer import AlbumSerializer
+from myapp.serializers.band_serializer import BandSerializer
+from myapp.serializers.member_serializer import MemberSerializer
+from myapp.serializers.music_serializer import MusicSerializer
