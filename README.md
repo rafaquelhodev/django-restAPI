@@ -20,3 +20,9 @@ $ python manage.py migrate
 ```bash
 $ python manage.py makemigrations
 ```
+
+## Run with docker-compose
+
+```bash
+$ docker-compose up -d --build
+```
